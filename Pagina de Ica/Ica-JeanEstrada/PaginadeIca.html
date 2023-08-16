@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conoce Ica</title>
+        <link rel="stylesheet" href="CSS/EstilosPropios.css">
+        <link rel="stylesheet" href="CSS/EstilosdeBootstrap.css">
+    </head>
+    <body class="cuerpo">
+        <div class="conteiner-md menu">
+            <!--Fila para menu de navegacion-->
+            <div class="row-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid menu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <img src="img/Logo.png" class="img-fluid logo">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Formulario.html">Registrate</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" >
+                                <input class="form-control me-2" type="texto" id="search-input" placeholder="Ingrese su busqueda" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" id="search-button">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="fondo">
+            <div class="container-md text-center titulo">
+                <!--Fila para dar la biemvenida a la pagina-->
+                <img src="img/BienvenidaIca.png" class="img-fluid bienvenida" width="40%">
+            </div>
+            <video muted autoplay loop class="row-12" id="fondo">
+                <!--Fila para el video de fondo-->
+                <source src="video/Bienvenidos a Ica, Ciudad del Eterno Sol.mp4" type="video/mp4" class="video-fluid">
+            </video>
+        </div>
+
+        <div class="container overflow-hidden text-center presentacion">
+            <!--Fila para el titulo de la pagina-->
+            <h1>En esta Region desertica podras conocer estos lugares</h1>
+        </div>
+        <ul id="results-list"></ul>
+
+        <div class="container px-4 text-center">
+
+            <div class="container">
+                <div class="row offset-md-1 gy-5">
+                    <!--Fila para las viñetas de contenido-->
+                    <div class="col-md ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica1.jpg" id="huacachina" class="card-img-top img-fluid" alt="Huacachina">
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                        LA HUACACHINA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <strong>La Laguna de la Huacachina</strong> <p>Huacachina que traducido del quechua significa "La que llora sal", 
+                                                es un gran oasis de aguas sulfurosas ubicado a cinco kilómetros al oeste del departamento de Ica, 
+                                                en medio del desierto costero del océano Pacífico. De aguas color verde, surgió debido al afloramiento 
+                                                de corrientes subterráneas y alrededor de ella hay una abundante vegetación.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica2.jpg" id="lineas" class="card-img-top" alt="Lineas de Nazca">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                        LAS LINEAS DE NAZCA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>Las líneas de Nazca y Geoglifos de Pampas de Jumana</strong> <p>Son antiguos geoglifos que 
+                                                se encuentran en las pampas de Jumana, en el desierto de Nazca, entre las poblaciones de Nazca y Palpa. 
+                                                Fueron trazadas por la cultura nazca y están compuestas por varios cientos de figuras que abarcan desde 
+                                                diseños tan simples hasta complejas que aparecen trazadas sobre la superficie terrestre.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica3.jpg" id="cañon" class="card-img-top" alt="Cañon de los Perdidos">
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                        CAÑON DE LOS PERDIDOS
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <strong>El cañon de los Perdidos</strong> <p>Se encuentra ubicado en el sureste del distrito de Santiago, 
+                                                a casi tres horas de la ciudad de Ica. Consta de una extensión de casi 6 kilometros y con una profundidad 
+                                                de 200 metros, además de 3 niveles para llegar a su interior en donde se encuentra su famoso “Mirador”. 
+                                                Fue decubierco en el 2021 por unos periodistas, los cuales se perdieron en ese lugar por algunas horas,
+                                            por eso lo bautizaron con ese nombre.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica4.jpg" id="paracas" class="card-img-top" alt="Paracas">
+                            <div class="accordion" id="accordionExample4">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                        PARACAS
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                                        <div class="accordion-body">
+                                            <strong>La Ciudad De Paracas</strong> <p> Se encuentra hubicada en la costa oeste de Perú. Es conocida 
+                                                por sus playas, como El Chaco, ubicada en la bahía resguardada de Paracas. La ciudad es un punto de 
+                                                partida hacia las islas Ballestas deshabitadas, hogar de lobos marinos, pelícanos y pingüinos de Humboldt. 
+                                                La escabrosa Reserva Nacional de Paracas tiene abundante fauna y se extiende por desierto, océano, 
+                                                islas y la península de Paracas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica5.jpg" id="parque" class="card-img-top" alt="Parque de las Brujas">
+                            <div class="accordion" id="accordionExample5">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                        PARQUE DE LAS BRUJAS EN CACHICHE
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                                        <div class="accordion-body">
+                                            <strong>El Parque de las Brujas de Cachiche</strong><p>En la antiguedad Ica era considerada una ciudad de brujas, 
+                                                porque había innumerables mujeres que poseían poderes sobrenaturales. Los pobladores mencionaron que las 
+                                                brujas tenian grandes poderes para eliminar el mal de sus cuerpos y preparar diferentes pociones. 
+                                                Este parque es un representacion a esas leyendas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Ica6.jpg" id="santuario" class="card-img-top" alt="Santuario del Señor de Luren">
+                            <div class="accordion" id="accordionExample6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                        SANTUARIO DEL SEÑOR DE LUREN
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                                        <div class="accordion-body">
+                                            <strong>El Santuario del Señor de Luren</strong> <p>Es un templo católico ubicado en la misma ciudad de Ica, 
+                                                región de Ica, que alberga la figura del Señor de Luren. En el 2007 fue severamente dañado tras sufrir un 
+                                                terremoto y que en el 2019 culminó su reconstrucción. Fue nombrado como patrimonio cultural y es considerado 
+                                                uno de los templos más emblemáticos de la religiosidad iqueña.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><br>
+
+        <div class="conteiner-fluid Pie">
+            <!--Fila para el Pie de Pagina-->
+            <div class="row">
+                <div class="col-5 offset-md-2 px-8">
+                    <h2 class="offset-md-1">VisitaPeru</h2>
+                    <img src="img/Logo.png" class="img-fluid" >
+                </div>
+                <div class="col-4 px-6">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <h2>Enlaces</h2>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">Visita Tambien
+                            <ol>
+                            <a class="nav-link active" aria-current="page" href="Arequipa.html">Arequipa</a>
+                            <a class="nav-link active" aria-current="page" href="Cusco.html">Cusco</a>
+                            </ol>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/JSdeBootsTrap.js"></script>
+        <script src="js/JavaScriptdeBusqueda.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+.fondo{
+    min-height: 100vh;
+    position: relative;
+}
+
+video#fondo{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 0%;
+    opacity: 50%;
+}
+
+.menu{
+    background-color: rgb(153, 220, 254);
+    z-index: 2;
+}
+
+.titulo{
+    color: rgb(179, 235, 242);
+    position: relative;
+    z-index: 2;
+    padding: 150px;
+}
+
+.presentacion{
+    margin: 20px;
+}
+
+img.logo{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+
+.cuerpo{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+img{
+    border-radius: 10%;
+    border: solid 5px;
+    border-color: rgb(67, 7, 123);
+}
+
+img.bienvenida{
+    width: 1000px;
+    height: 400px
+}
+
+.Pie{
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #244aa3);
+    background: linear-gradient(to right, #4286f4, #0b438d);
+    padding: 50px;
+}
+a:hover{
+    background-color: rgb(153, 220, 254);
+}
