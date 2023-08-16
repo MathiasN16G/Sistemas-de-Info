@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conoce Arequipa</title>
+        <link rel="stylesheet" href="CSS/MisEstilos.css">
+        <link rel="stylesheet" href="CSS/estilosBootsTrap.css">
+    </head>
+    <body class="cuerpo">
+        <div class="conteiner-md menu">
+            <!--Fila para menu de navegacion-->
+            <div class="row-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid menu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <img src="img/Logo.png" class="img-fluid logo">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Formulario.html">Registrate</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" >
+                                <input class="form-control me-2" type="texto" id="search-input" placeholder="Ingrese su busqueda" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" id="search-button">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="container-md text-center titulo">
+                <!--Fila para dar la biemvenida a la pagina-->
+                <img src="img/BienvenidaArequipa.png" class="img-fluid bienvenida" width="40%">
+            </div>
+            <video muted autoplay loop class="row-12">
+                <!--Fila para el video de fondo-->
+                <source src="video/Bienvenidos a Arequipa, La Ciudad Blanca.mp4" type="video/mp4" class="video-fluid">
+            </video>
+        </div>
+
+        <div class="container overflow-hidden text-center presentacion">
+            <!--Fila para el titulo de la pagina-->
+            <h1>En Arequipa puedes visitar estos lugares</h1>
+        </div>
+        <ul id="results-list"></ul>
+
+        <div class="container px-4 text-center">
+
+            <div class="container">
+                <div class="row offset-md-1 gy-5">
+                    <!--Fila para las viñetas de contenido-->
+                    <div class="col ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa1.jpg" id="plaza" class="card-img-top img-fluid" alt="Plaza de armas">
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                        PLAZA DE ARMAS DE AREQUIPA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <strong>La Plaza De Armas de Arequipa</strong> <p>Es uno de los espacios públicos más 
+                                            importantes de Arequipa y el sitio fundacional de la ciudad. Se encuentra ubicado en el centro histórico de Arequipa 
+                                            con la Catedral de Arequipa al norte, la Puerta de Arequipa al este, sur y oeste, la Iglesia de la Compañía 
+                                            al sureste y la Iglesia de Nuestra Señora de la Merced al sur. En la parte suroeste y en el centro de la plaza 
+                                            hay una pila de bronce.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa2.jpg" id="monasterio" class="card-img-top" alt="Monasterio Santa Catalina">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                        MONASTERIO DE SANTA CATALINA DE SIENA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>El Monasterio de Santa Catalina</strong> <p>Fue construido el 10 de septiembre de 1579 en la 
+                                                ciudad de Arequipa en el sur del Perú, la cual se destaca por su belleza natural, clima agradable y materiales 
+                                                de calidad que se usaron para su construccion y que el la actualidad se sigue usando en esa ciudad. En el monasterio hay dos tipos 
+                                                de sillar, esta el blanco que viene del volcán Chachani y el rosado que es del Misti, este ultimo siendo un símbolo de la ciudad.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa3.jpg" id="catedral" class="card-img-top" alt="Catedral de Arequipa">
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                        CATEDRAL DE AREQUIPA Y SU MUSEO
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <strong>La Catedral de Arequipa</strong> <p>Es Patrimonio de la Humanidad y uno de los primeros edificios 
+                                                religiosos construidos por los conquistadores españoles en Arequipa. Su estilo es neorrenacentista 
+                                                influenciado por la arquitectura gótica. La Catedral de Arequipa fue construida en 1540 y terminada en 1656. 
+                                                Esta magnífica obra de arquitectura está hecha completamente de ceniza, una piedra volcánica blanca creada 
+                                                por las erupciones volcánicas en la región.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa4.jpg" id="colca" class="card-img-top" alt="Cañon del Colca">
+                            <div class="accordion" id="accordionExample4">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                        EL VALLE Y EL CAÑON DEL COLCA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                                        <div class="accordion-body">
+                                            <strong>El Cañon del Colca</strong> <p>El Cañón del Colca, ubicado en el valle de un río en el sur de Perú, es uno 
+                                                de los cañones más profundos del mundo. Es un famoso destino de trekking. Es el hogar del cóndor andino gigante, 
+                                                que se puede observar desde miradores como la Cruz del Cóndor. El paisaje del cañón incluye valles verdes y 
+                                                pueblos periféricos tradicionales donde la agricultura en hileras es anterior a los incas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa5.jpg" id="convenio" class="card-img-top" alt="Convenio Santa Teresa">
+                            <div class="accordion" id="accordionExample5">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                        CONVENIO DE SANTA TERESA
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                                        <div class="accordion-body">
+                                            <strong>El Monasterio de Carmelitas Descalzas de San José y Santa Teresa</strong> <p>Más conocido como el Convento de 
+                                                Santa Teresa de Arequipa, conjunto religioso que alberga una ermita de monjas carmelitas y el Museo de Arte Virreinal
+                                                de Santa Teresa. Fue construido en 1710 y es un buen ejemplo de la arquitectura barroca andina. Se encuentra en el 
+                                                centro histórico de Arequipa, por lo que forma parte del patrimonio cultural de la humanidad.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Arequipa6.jpg" id="petroglifos" class="card-img-top" alt="Petroglifos del Toro Muerto">
+                            <div class="accordion" id="accordionExample6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                        LOS PETROGLIFOS DEL TORO MUERTO
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                                        <div class="accordion-body">
+                                            <strong>Los Petroglifos de Toro Muerto</strong> <p>Se halla a tres horas de carretera desde Arequipa hacia Lima. 
+                                                Estas manifestaciones de arte rupestre en el Valle del Majes estan distribuidos en una superficie de 5 km², 
+                                                extendiéndose entre los 400 y 800 m.s.n.m. Tal vez sea la zona más rica en arte rupestre en el mundo; tiene 
+                                                más de 6,000 bloques grabados en bajo relieve. Sus piedras han sido grabadas con todo tipo de representaciones 
+                                                geométricas y antropomórficas, aves, cuadrúpedos, reptiles, etc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><br>
+
+        <div class="conteiner-fluid Pie">
+            <!--Fila para el Pie de Pagina-->
+            <div class="row gx-5">
+                <div class="col-3  offset-md-1">
+                    <h4 class="offset-md-1">Sobre Nosostros</h4>
+                    <h6>Somos una pagina que muestra informacion acerca de ciudades que te podrian
+                        interesar, desde informacion de los lugares a visitar, hasta la ubicacion del lugar.
+                        Si tienes alguna sugerencia de que otras ciudades podriamos dar informacion, no dude en
+                        mandarnos sus comentarios.
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <h2>Enlaces</h2>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">Visita Tambien
+                            <ol>
+                            <a class="nav-link active" aria-current="page" href="Cusco.html">Cusco</a>
+                            <a class="nav-link active" aria-current="page" href="Ica.html">Ica</a>
+                            </ol>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h2 class="offset-md-1">VisitaPeru</h2>
+                    <img src="img/Logo.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/JSBootsTrap.js"></script>
+        <script src="js/MiJavaScript.js"></script>
+    </body>
+</html>
