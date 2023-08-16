@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="CSS/MisEstilos.css">
+        <link rel="stylesheet" href="CSS/estilosBootsTrap.css">
+    </head>
+    <body class="cuerpodelformulario">
+
+        <div class="container overflow-hidden text-center Pformulario">
+            <!--Fila para el titulo de la pagina-->
+            <h1>Formulario para registrarse</h1>
+        </div>
+        <div class="row-md-6"  id="Cformulario">
+            <!--Imagen de fondo-->
+            <img src="img/ImgFondo.png" id="imgfondo">
+
+            <div class="row-6 formulario">
+                <!--Fila para el formulario-->
+                <form class="row g-3">
+                    <div class="col-md-12">
+                        <label for="inputAddress" class="form-label" id="Tformulario">Nombres</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputAddress" class="form-label" id="Tformulario">Apellidos</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa tu apellido" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label" id="Tformulario">Ingresa tu Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese su email" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputPassword4" class="form-label" id="Tformulario">Elije una contraseña</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Ingrese su contraseña" required>
+                            <div class="input-group-append ms-1">
+                                <div class="input-group-text">
+                                    <input type="checkbox" id="showPassword">
+                                    <label for="showPassword" class="form-check-label">Mostrar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                      
+                    <div class="col-7">
+                        <label for="inputAddress" class="form-label" id="Tformulario">Carrera*</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa la carrera que cursas" required>
+                    </div>
+                    <div class="col-5">
+                        <label for="inputnumero" class="form-label" id="Tformulario">Número de celular*</label>
+                        <input type="text" class="form-control" id="inputnumero" placeholder="Ingresa tu numero de celular" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="sede" class="form-label" id="Tformulario">Sede</label>
+                        <select id="sede" class="form-select" required>
+                            <option value="">-¿En que sede te encuentras?-</option>
+                            <option value="merced">Merced</option>
+                            <option value="perla">La Perla</option>
+                            <option value="tahuaycani">Tahuaycani</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="ciclo" class="form-label" id="Tformulario">Ciclo actual</label>
+                        <select id="ciclo" class="form-select" required>
+                            <option value="">-Selecciona-</option>
+                            <option value="cicloI">Ciclo I</option>
+                            <option value="cicloII">Ciclo II</option>
+                            <option value="cicloIII">Ciclo III</option>
+                            <option value="cicloIV">Ciclo IV</option>
+                            <option value="cicloV">Ciclo V</option>
+                            <option value="cicloVI">Ciclo VI</option>
+                            <option value="cicloVII">Ciclo VII</option>
+                            <option value="cicloVIII">Ciclo VIII</option>
+                            <option value="cicloIX">Ciclo IX</option>
+                            <option value="cicloX">Ciclo X</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputedad" class="form-label" id="Tformulario">Edad</label>
+                        <input type="text" class="form-control" id="inputedad" required>
+                        <div class="invalid-feedback">Por favor, ingresa solo números.</div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="conteiner-fluid Pie">
+        <!--Fila para el Pie de Pagina-->
+        <div class="row gx-5">
+            <div class="col-3  offset-md-1">
+                <h4 class="offset-md-1">Sobre Nosostros</h4>
+                <h6>Somos una pagina que muestra informacion acerca de ciudades que te podrian
+                    interesar, desde informacion de los lugares a visitar, hasta la ubicacion del lugar.
+                    Si tienes alguna sugerencia de que otras ciudades podriamos dar informacion, no dude en
+                    mandarnos sus comentarios.
+                </h6>
+            </div>
+            <div class="col-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <h2>Enlaces</h2>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://outlook.live.com/owa/">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2 class="offset-md-1">VisitaPeru</h2>
+                <img src="img/Logo.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/JSBootsTrap.js"></script>
+    <script src="js/jsformulario.js"></script>
+    </body>
+</html>
