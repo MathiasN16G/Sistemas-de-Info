@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VisitaPeru</title>
+        <link rel="stylesheet" href="CSS/MisEstilos.css">
+        <link rel="stylesheet" href="CSS/estilosBootsTrap.css">
+    </head>
+    <body class="cuerpo">
+        <div class="conteiner-md menu">
+            <!--Fila para menu de navegacion-->
+            <div class="row-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid menu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <img src="img/Logo.png" class="img-fluid logo">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Formulario.html">Registrate</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" >
+                                <input class="form-control me-2" type="texto" id="search-input" placeholder="Ingrese su busqueda" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" id="search-button">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="fondo row-12 ">
+            <video muted autoplay loop class="row-12" id="fondo">
+                <!--Fila para el video de fondo-->
+                <source src="video/VideoFondo.mp4" type="video/mp4" class="video-fluid">
+            </video>
+            <div class="container-fluid titulo">
+                <!--Fila para carrusel de imagenes-->
+            <center>
+                <div class="row container overflow-hidden text-center">
+                    <!--Fila para el titulo de la pagina-->
+                    <h1>EN ESTA PAGINA CONOCEREMOS ESTAS HERMOSAS CIUDADES</h1>
+                </div>
+                <div class="row w-75 carrusel">
+                    <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active " data-bs-interval="1500">
+                                <img src="img/img1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="img/img2.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="img/img3.jpg" class="d-block w-100">
+                            </div>
+                            </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Antes</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Despues</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+            </div>
+        </div>
+        <ul id="results-list"></ul>
+
+        <div class="conteiner-fluid overflow-hidden text-center contenido">
+            <h2>Aqui tendras mas informacion de estos lugares</h2>
+            <p>Has click en alguna de las imagenes para que conozcas la informacion acerca de ese lugar</p><br>
+            <!--Fila para los lugares a visitar-->
+            <div class="row-5">
+                <div class="col contenidos">
+                    <h3 id="arequipa">Arequipa, La Ciudad Blanca</h3>
+                    <p class="p-2">La región de Arequipa en Perú es un lugar que combina paisajes impresionantes, una rica historia 
+                        y una deliciosa gastronomía. Es un destino turístico muy popular y una muestra de la diversidad 
+                        y belleza del país andino.</p>
+                    <a href="Arequipa.html">
+                        <img class="imagenes img-fluid" src="img/img4.jpg" alt="Conoce Arequipa">
+                    </a>
+                </div>
+                <div class="col contenidos">
+                    <h3 id="cusco">Cusco, La Ciudad Imperial</h3>
+                    <p class="p-2">La región de Cusco en Perú es un destino turístico fascinante que combina la grandiosidad de su 
+                        patrimonio arqueológico inca, encabezado por Machu Picchu, con la belleza de sus paisajes naturales y la riqueza 
+                        de su cultura viva. Es un lugar que deja una impresión duradera en los visitantes y los transporta a tiempos 
+                        antiguos llenos de misterio y esplendor..</p>
+                    <a href="Cusco.html">
+                        <img class="imagenes img-fluid" src="img/img5.jpg" alt="Conoce Cusco">
+                    </a>
+                </div>
+                <div class="col contenidos">
+                    <h3 id="ica">Ica, La Ciudad del Eterno Sol</h3>
+                    <p class="p-2">la región de Ica en Perú es un destino fascinante que combina la belleza del desierto y los oasis, la 
+                        producción vitivinícola y una rica historia arqueológica. Es un lugar ideal para los amantes de la aventura, los 
+                        aficionados al vino y aquellos interesados ​​en explorar las culturas antiguas del Perú.</p>
+                    <a href="Ica.html">
+                        <img class="imagenes img-fluid" src="img/img6.jpg" alt="Conoce Ica">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-md-3 informativo">
+            <center>
+            <!--Este es una fila para el video-->
+            <h2>Aqui un video para que aprecies los paisajes de estas regiones</h2>
+            <video controls height="500px" class="container-fluid">
+                <source src="video/Video1.mp4" type="video/mp4" id="informativo">
+            </video>
+            </center>
+        </div>
+
+        <div class="conteiner-fluid Pie">
+            <!--Fila para el Pie de Pagina-->
+            <div class="row gx-5">
+                <div class="col-3  offset-md-1">
+                    <h4 class="offset-md-1">Sobre Nosostros</h4>
+                    <h6>Somos una pagina que muestra informacion acerca de ciudades que te podrian
+                        interesar, desde informacion de los lugares a visitar, hasta la ubicacion del lugar.
+                        Si tienes alguna sugerencia de que otras ciudades podriamos dar informacion, no dude en
+                        mandarnos sus comentarios.
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <h2>Enlaces</h2>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h2 class="offset-md-1">VisitaPeru</h2>
+                    <img src="img/Logo.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/JSBootsTrap.js"></script>
+        <script src="js/MiJavaScript.js"></script>
+    </body>
+</html>
