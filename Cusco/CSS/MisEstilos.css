@@ -1,0 +1,132 @@
+.fondo{
+    min-height: 100vh;
+    position: relative;
+}
+
+video#fondo{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 0%;
+    opacity: 50%;
+}
+
+.menu{
+    background-color: rgb(153, 220, 254);
+    z-index: 2;
+}
+
+.titulo{
+    color: rgb(179, 235, 242);
+    position: relative;
+    z-index: 2;
+    padding: 150px;
+}
+
+img.logo{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+}
+.carrusel{
+    margin: 0px;
+}
+
+.cuerpo{
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+.contenido{
+    margin: 5%;
+}
+.contenidos{
+    margin: 5%;
+}
+.imagenes:hover {
+    transform:scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.presentacion{
+    z-index: 2;
+    margin: 11%;
+}
+
+img{
+    border-radius: 10%;
+    border: solid 5px;
+    border-color: rgb(67, 7, 123);
+}
+
+img.bienvenida{
+    width: 1000px;
+    height: 400px
+}
+video#informativo{
+    border-radius: 5%;
+}
+
+.informativo{
+    margin: 5%;
+}
+
+.Pie{
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #244aa3);
+    background: linear-gradient(to right, #4286f4, #0b438d);
+    padding: 50px;
+}
+a:hover{
+    background-color: rgb(153, 220, 254);
+}
+
+.texto{
+    background-color: rgb(7, 142, 154);
+}
+
+.cuerpodelformulario{
+    background: #005C97;
+    background: -webkit-linear-gradient(to right, #363795, #005C97);
+    background: linear-gradient(to right, #363795, #005C97);
+}
+.Pformulario{
+    margin: 20px;
+    color: #02184b;
+}
+
+#Cformulario{
+    position: relative;
+    width: 700px;
+    display: flex;
+    padding: 40px;
+	max-width: 600px;
+	margin: 40px auto;
+	border-radius: 15px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+}
+
+img#imgfondo{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 15px;
+    border-color: aliceblue;
+    opacity: 70%;
+}
+
+.formulario{
+    z-index: 2;
+}
+#Tformulario{
+    color: rgb(255, 255, 255);
+}
+

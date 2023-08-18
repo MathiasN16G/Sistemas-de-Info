@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conoce Cusco</title>
+        <link rel="stylesheet" href="CSS/MisEstilos.css">
+        <link rel="stylesheet" href="CSS/estilosBootsTrap.css">
+    </head>
+    <body class="cuerpo">
+        <div class="conteiner-md menu">
+            <!--Fila para menu de navegacion-->
+            <div class="row-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid menu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <img src="img/Logo.png" class="img-fluid logo">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Formulario.html">Registrate</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" >
+                                <input class="form-control me-2" type="texto" id="search-input" placeholder="Ingrese su busqueda" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" id="search-button">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="container-md text-center titulo">
+                <!--Fila para dar la biemvenida a la pagina-->
+                <img src="img/BienvenidaCusco.png" class="img-fluid bienvenida" width="40%">
+            </div>
+            <video muted autoplay loop class="row-12">
+                <!--Fila para el video de fondo-->
+                <source src="video/Bienvenidos a Cusco, La Ciudad Imperial.mp4" type="video/mp4" class="video-fluid">
+            </video>
+        </div>
+
+        <div class="container overflow-hidden text-center presentacion">
+            <!--Fila para el titulo de la pagina-->
+            <h1>En la Region de Cusco puedes visitar estos lugares hermosos</h1>
+        </div>
+        <ul id="results-list"></ul>
+
+        <div class="container px-4 text-center">
+
+            <div class="container">
+                <div class="row offset-md-1 gy-5">
+                    <!--Fila para las viñetas de contenido-->
+                    <div class="col-md ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco1.jpg" id="machupicchu" class="card-img-top img-fluid" alt="Machu Picchu">
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                        MACHU PICCHU
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <strong>El Santuario Historico de Machu Picchu</strong> <p>Fue construida alrededor de 1450 por 
+                                                órdenes de Pachacútec, siendo considerada, una obra maestra de la arquitectura y la ingeniería. 
+                                                Sus peculiares características arquitectónicas y paisajísticas, lo han convertido en uno de 
+                                                los destinos turísticos más famosos del planeta, así como una de las siete maravillas del mundo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco2.jpg" id="centro" class="card-img-top" alt="Centro Histórico del Cusco">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                        CENTRO HISTORICO DEL CUSCO
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <strong>El Centro histórico del Cusco</strong> <p>Denominado también como Zona Monumental del Cusco es el casco 
+                                                histórico de la ciudad del Cusco, Perú. La zona fue declarada en 1972 como Patrimonio Cultural de la Humanidad 
+                                                estableciendo una zona central que constituye el patrimonio de la humanidad propiamente dicho y una zona de 
+                                                amortiguación.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco3.jpg" id="cristoblanco" class="card-img-top" alt="Cristo Blanco">
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                        CRISTO BLANCO
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <strong>El Cristo Blanco</strong> <p>Es una estatua ubicada en la cima del cerro Pukamuqu a 
+                                                5 kilómetros del centro histórico del Cusco. Debido a su ubicación en altura, es un 
+                                                mirador y, a la vez, desde se destaca dando la impresión de que "cuida" a la ciudad. 
+                                                Por su ubicación forma parte desde 1972 de la Zona Monumental del Cusco declarada como 
+                                                Monumento Histórico del Perú.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco4.jpg" id="mirador" class="card-img-top" alt="Mirador de San Cristóbal">
+                            <div class="accordion" id="accordionExample4">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                        MIRADOR DE SAN CRISTOBAL
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                                        <div class="accordion-body">
+                                            <strong>El Mirador de San Cristóbal</strong> <p>Es considerado como el mejor mirador de la ciudad debido 
+                                                a que posee la mejor y más completa vista de la ciudad imperial. Adicional a esto encontramos en el 
+                                                mismo lugar puedes visitar el templo de San Cristóbal y la hermosa plaza del mismo nombre. Está ubicado 
+                                                al norte del Cusco, a los pies de la fortaleza de Sacsayhuamán</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md ">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco5.jpg" id="terrazas" class="card-img-top" alt="Terrazas Incas de Moray">
+                            <div class="accordion" id="accordionExample5">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                        LAS TERRAZAS CIRCULARES DE MORAY
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne5" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                                        <div class="accordion-body">
+                                            <strong>Las Terrazas Circulares de Moray</strong> <p>son andenes creados por los Incas, que por la forma 
+                                                asemeja un Anfiteatro Hundido. El Grupo Arqueológico de Moray se encuentra ubicado a 7 kilómetros 
+                                                de Maras, en el Valle Sagrado de los Incas, a 38 km al noroeste de la ciudad del Cusco.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card col-md" style="width: 30rem;">
+                            <img src="img/Cusco6.jpg" id="minasdesal" class="card-img-top" alt="Minas de Sal de Maras">
+                            <div class="accordion" id="accordionExample6">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                        MINAS DE SAL DE MARAS
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                                        <div class="accordion-body">
+                                            <strong>Las Salinas de Maras en Cusco</strong> <p>O salineras de maras como también se les llama, 
+                                                son minas de sal cuya explotación es tan antigua como el Tahuantinsuyo. Ubicada en la ladera 
+                                                del cerro, la salinera en forma de terrazas o andenes es atravesada por un riachuelo que nutre 
+                                                de agua salada las pozas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><br>
+
+        <div class="conteiner-fluid Pie">
+            <!--Fila para el Pie de Pagina-->
+            <div class="row gx-5">
+                <div class="col-3  offset-md-1">
+                    <h4 class="offset-md-1">Sobre Nosostros</h4>
+                    <h6>Somos una pagina que muestra informacion acerca de ciudades que te podrian
+                        interesar, desde informacion de los lugares a visitar, hasta la ubicacion del lugar.
+                        Si tienes alguna sugerencia de que otras ciudades podriamos dar informacion, no dude en
+                        mandarnos sus comentarios.
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <h2>Enlaces</h2>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Hogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:jeanestrada_USMP">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">Visita Tambien
+                            <ol>
+                            <a class="nav-link active" aria-current="page" href="Arequipa.html">Arequipa</a>
+                            <a class="nav-link active" aria-current="page" href="Ica.html">Ica</a>
+                            </ol>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.peru.travel/es">Mas Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/maps/">Mapas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h2 class="offset-md-1">VisitaPeru</h2>
+                    <img src="img/Logo.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <script src="js/JSBootsTrap.js"></script>
+        <script src="js/MiJavaScript.js"></script>
+    </body>
+</html>
